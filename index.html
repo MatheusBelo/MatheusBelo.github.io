@@ -1,44 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfólio Profissional</title>
-<style>
-body{font-family:Arial,sans-serif;margin:0;line-height:1.6;background:#f4f6f9;color:#333}
-header{background:#0a66c2;color:white;padding:60px 20px;text-align:center}
-section{max-width:1000px;margin:auto;padding:40px 20px}
-.card{background:white;padding:20px;border-radius:10px;margin:15px 0;box-shadow:0 2px 6px rgba(0,0,0,.1)}
-h2{color:#0a66c2}
-footer{text-align:center;padding:20px;background:#222;color:white}
-ul{padding-left:20px}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio profissional de Matheus Belo, analista de engenharia de software com foco em desenvolvimento e cloud." />
+  <meta name="keywords" content="Matheus Belo, Engenharia de Software, Cloud, AWS, Desenvolvimento, Portfólio" />
+  <meta name="author" content="Matheus Belo" />
+  <meta property="og:title" content="Matheus Belo | Software Engineering & Cloud" />
+  <meta property="og:description" content="Carreira, tecnologias, certificações, cursos e projetos de Matheus Belo." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#07111f" />
+  <title>Matheus Belo | Software Engineering & Cloud</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="data.js"></script>
+  <script defer src="script.js"></script>
 </head>
 <body>
-<header>
-<h1>Matheus da Silva Belo</h1>
-<p>Custom Software Engineering Analyst | Cloud | Desenvolvimento de Software</p>
-</header>
-<section>
-<h2>Sobre Mim</h2>
-<div class="card">
-<p>Adicione aqui um resumo da sua trajetória profissional, experiências e objetivos de carreira.</p>
-</div>
-<h2>Carreira</h2>
-<div class="card"><p>Liste suas experiências profissionais e conquistas.</p></div>
-<h2>Tecnologias</h2>
-<div class="card"><ul><li>AWS</li><li>Java</li><li>Python</li><li>Docker</li><li>Git</li></ul></div>
-<h2>Certificações</h2>
-<div class="card"><ul><li>AWS Certified Developer – Associate</li><li>Adicione outras certificações</li></ul></div>
-<h2>Cursos</h2>
-<div class="card"><ul><li>Adicione seus cursos e treinamentos</li></ul></div>
-<h2>Projetos Pessoais</h2>
-<div class="card"><p>Inclua descrição, links do GitHub, demonstrações e resultados.</p></div>
-<h2>Contato</h2>
-<div class="card"><p>LinkedIn | GitHub | E-mail</p></div>
-</section>
-<footer>
-<p>© 2026 Matheus da Silva Belo</p>
-</footer>
+  <div class="noise"></div>
+  <header class="header" id="topo">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="Ir para o início"><span>MB</span><b>.</b></a>
+      <button class="menu-button" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="#sobre">Sobre</a><a href="#experiencia">Carreira</a><a href="#tecnologias">Tecnologias</a>
+        <a href="#certificacoes">Certificações</a><a href="#projetos">Projetos</a><a href="#contato">Contato</a>
+      </div>
+      <button class="theme-button" aria-label="Alternar tema" title="Alternar tema">☀</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> DISPONÍVEL PARA CONEXÕES E NOVOS DESAFIOS</p>
+          <h1>Olá, sou <span class="gradient-text" id="hero-name">Matheus Belo</span>.</h1>
+          <h2>Software Engineering <span class="muted">&</span> Cloud</h2>
+          <p class="hero-description" id="hero-description"></p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projetos">Explorar projetos <span>↗</span></a>
+            <a class="button secondary" id="github-button" href="#" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="button ghost" id="cv-button" href="curriculo.pdf" download>Baixar currículo</a>
+          </div>
+          <div class="quick-stats" id="quick-stats"></div>
+        </div>
+        <div class="hero-visual reveal delay-1" aria-hidden="true">
+          <div class="code-window">
+            <div class="window-bar"><div><i></i><i></i><i></i></div><span>profile.ts</span></div>
+            <pre><code><span class="pink">const</span> <span class="blue">engineer</span> = {
+  name: <span class="green">"Matheus Belo"</span>,
+  role: <span class="green">"Software Engineer"</span>,
+  location: <span class="green">"Recife, BR"</span>,
+  focus: [
+    <span class="green">"Cloud"</span>,
+    <span class="green">"Backend"</span>,
+    <span class="green">"Automation"</span>
+  ],
+  mindset: <span class="green">"always learning"</span>,
+  build: () => <span class="orange">scalableSolutions</span>
+};</code></pre>
+          </div>
+          <div class="floating-chip chip-aws">☁ Cloud</div><div class="floating-chip chip-code">&lt;/&gt; Code</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container narrow reveal">
+        <div class="section-heading"><p class="section-number">01.</p><h2>Sobre mim</h2><div></div></div>
+        <div class="about-grid">
+          <div><p class="large-copy" id="about-lead"></p><div id="about-paragraphs"></div></div>
+          <aside class="terminal-card"><div class="terminal-title">matheus@portfolio:~$</div><div id="terminal-lines"></div><span class="cursor"></span></aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alternate" id="experiencia">
+      <div class="container reveal"><div class="section-heading"><p class="section-number">02.</p><h2>Jornada profissional</h2><div></div></div><div class="timeline" id="experience-list"></div></div>
+    </section>
+
+    <section class="section" id="tecnologias">
+      <div class="container reveal"><div class="section-heading"><p class="section-number">03.</p><h2>Tecnologias</h2><div></div></div><p class="section-intro">Ferramentas e plataformas que fazem parte da minha jornada técnica.</p><div class="skills-grid" id="skills-grid"></div></div>
+    </section>
+
+    <section class="section alternate" id="certificacoes">
+      <div class="container reveal"><div class="section-heading"><p class="section-number">04.</p><h2>Certificações e cursos</h2><div></div></div>
+        <div class="subheading-row"><h3>Certificações</h3><span>Credenciais profissionais</span></div><div class="cards-grid" id="certification-list"></div>
+        <div class="subheading-row courses-title"><h3>Formação contínua</h3><span>Cursos e especializações</span></div><div class="course-list" id="course-list"></div>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="container reveal"><div class="section-heading"><p class="section-number">05.</p><h2>Projetos em destaque</h2><div></div></div><p class="section-intro">Soluções pessoais para transformar conhecimento técnico em resultados práticos.</p><div class="projects-grid" id="project-list"></div><div class="center"><a class="text-link" id="all-projects" href="#" target="_blank" rel="noreferrer">Ver todos no GitHub →</a></div></div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div class="container contact-card reveal"><p class="section-number">06. Próximo passo</p><h2>Vamos construir algo relevante?</h2><p>Estou sempre aberto a trocar ideias sobre engenharia de software, cloud e desafios tecnológicos.</p><div class="contact-actions"><a class="button primary" id="email-link" href="#">Enviar e-mail</a><a class="button secondary" id="linkedin-link" href="#" target="_blank" rel="noreferrer">Conectar no LinkedIn</a></div></div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-content"><p>Projetado e desenvolvido por <strong>Matheus Belo</strong>.</p><p><span id="current-year"></span> · Feito com HTML, CSS e JavaScript.</p><a href="#topo" aria-label="Voltar ao topo">↑</a></div></footer>
 </body>
 </html>
