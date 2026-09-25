@@ -9,7 +9,7 @@ const portfolioData = {
     location: "Recife, PE, Brasil",
     email: "belo.matheus@outlook.com",
     github: "https://github.com/MatheusBelo",
-    linkedin: "https://www.linkedin.com/in/SEU-USUARIO/",
+    linkedin: "https://www.linkedin.com/in/matheus-belo-17b306251/",
     description: "Analista de Engenharia de Software com interesse em aplicações cloud, desenvolvimento backend, automação e soluções escaláveis. Transformo necessidades de negócio em software confiável, com aprendizado contínuo e atenção à qualidade.",
     aboutLead: "Construo soluções de software com foco em clareza, escalabilidade e impacto real.",
     about: [
