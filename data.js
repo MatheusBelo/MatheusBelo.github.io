@@ -40,17 +40,18 @@ const portfolioData = {
   ],
   skills: [
     { icon: "☁", category: "Cloud & AWS", items: ["AWS", "Lambda", "API Gateway", "S3", "DynamoDB", "CloudFormation"] },
-    { icon: "⌘", category: "Backend", items: ["Java", "Spring Boot", "Node.js", "APIs REST", "Microsserviços"] },
+    { icon: "☁", category: "Cloud & Microsoft", items: ["Microsoft", "Resources Groups", "Azure VM", "CosmosDB", "Azure Resource Manager"] },
+    { icon: "⌘", category: "Backend", items: ["Python", "Java", "Spring Boot", "Node.js", "APIs REST", "Microsserviços"] },
     { icon: "◫", category: "Frontend", items: ["JavaScript", "TypeScript", "React", "HTML", "CSS"] },
-    { icon: "⚙", category: "DevOps", items: ["Docker", "GitHub Actions", "CI/CD", "Terraform", "Jenkins"] },
-    { icon: "▱", category: "Dados", items: ["PostgreSQL", "MySQL", "DynamoDB", "MongoDB"] },
+    { icon: "⚙", category: "DevOps", items: ["Docker","Kubernetes", "GitHub Actions", "CI/CD", "Terraform", "Jenkins"] },
+    { icon: "▱", category: "Dados", items: ["PostgreSQL", "MySQL", "DynamoDB"] },
     { icon: "◇", category: "Práticas", items: ["Clean Code", "Git", "Scrum", "Testes", "Documentação"] }
   ],
   certifications: [
     /* Exemplo. Altere o título, emissor, data e link conforme suas credenciais reais. */
-    { title: "Adicione sua certificação AWS", issuer: "AWS", date: "Ano", credential: "#", icon: "AWS" },
-    { title: "Adicione outra certificação", issuer: "Instituição", date: "Ano", credential: "#", icon: "✓" },
-    { title: "Próxima conquista", issuer: "Em preparação", date: "Planejada", credential: "#", icon: "↗" }
+    { title: "AWS Cloud Practitioner", issuer: "AWS", credential: "#", icon: "AWS" },
+    { title: "AZ 900 - Azure Fundamentals", issuer: "Microsoft", credential: "#", icon: "MCS" },
+    { title: "SC 900 - Security, Compliance, and Identity Fundamentals", issuer: "Microsoft", credential: "#", icon: "MCS" }
   ],
   courses: [
     { title: "Adicione o nome do curso", provider: "Plataforma · carga horária", icon: "▹" },
