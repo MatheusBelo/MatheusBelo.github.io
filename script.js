@@ -7,8 +7,6 @@ if (educationList) {
         <article class="cert-card">
           <div class="cert-icon">🎓</div>
           <h3>${item.title}</h3>
-          <p>${item.type}</p>
-          <p>${item.institution}</p>
         </article>
       `
     )
