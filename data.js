@@ -10,6 +10,7 @@ const portfolioData = {
     email: "belo.matheus@outlook.com",
     github: "https://github.com/MatheusBelo",
     linkedin: "https://www.linkedin.com/in/matheus-belo-17b306251/",
+    youtube: "https://www.youtube.com/@BeloTech",
     description: "Analista de Engenharia de Software com interesse em aplicações cloud, desenvolvimento backend, automação e soluções escaláveis. Transformo necessidades de negócio em software confiável, com aprendizado contínuo e atenção à qualidade.",
     aboutLead: "Construo soluções de software com foco em clareza, escalabilidade e impacto real.",
     about: [
@@ -58,6 +59,12 @@ const portfolioData = {
     { title: "Adicione o nome da formação", provider: "Plataforma · ano", icon: "▹" },
     { title: "Adicione uma especialização", provider: "Instituição · ano", icon: "▹" },
     { title: "Adicione outro curso relevante", provider: "Plataforma · ano", icon: "▹" }
+  ],
+  education: [
+    { title: "Análise e Desenvolvimento de Sistemas"},
+    { title: "Pós Graduação em Gestão de Projetos"},
+    { title: "MBA em Segurança da Informação"},
+    { title: "Técnico em Redes de Computadores"}
   ],
   projects: [
     {
