@@ -60,7 +60,7 @@ const portfolioData = {
     { title: "Adicione uma especialização", provider: "Instituição · ano", icon: "▹" },
     { title: "Adicione outro curso relevante", provider: "Plataforma · ano", icon: "▹" }
   ],
-  Formation: [
+  education: [
     { title: "Análise e Desenvolvimento de Sistemas"},
     { title: "Pós Graduação em Gestão de Projetos"},
     { title: "MBA em Segurança da Informação"},
